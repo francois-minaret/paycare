@@ -7,7 +7,7 @@ s3_client = boto3.client("s3")
 # file_name = "unit-tests.xml"  # Nom du fichier XML généré par pytest
 file_name = "results.xml"
 bucket_name = "s3lead-fmi"
-s3_key = "/MLOPS/test-results/unit-tests.xml"  # Chemin dans le bucket
+s3_key = "/MLOPS/test-results/results.xml"  # Chemin dans le bucket
 
 # Upload du fichier
 try:
